@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global resets and custom styles */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-offwhite text-forest;
+  font-family: var(--font-inter, 'Inter', sans-serif);
+}
+
+/* Utility classes to constrain content width */
+.container {
+  @apply mx-auto px-4 max-w-7xl;
+}

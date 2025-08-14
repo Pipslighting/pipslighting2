@@ -1,0 +1,31 @@
+{
+  "name": "pipslighting-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "clsx": "^1.2.1",
+    "@heroicons/react": "^2.0.18",
+    "tailwindcss": "3.4.2",
+    "autoprefixer": "10.4.15",
+    "postcss": "8.4.26"
+  },
+  "devDependencies": {
+    "@types/node": "20.7.4",
+    "@types/react": "18.2.34",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.2.4",
+    "typescript": "5.4.3"
+  }
+}
